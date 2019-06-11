@@ -7,6 +7,6 @@
   "language":"python",
   "license": "",
   "scripts": {
-     "start": "python hello.py"
+     "start": "python -V"
     }
 }
