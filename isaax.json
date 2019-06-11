@@ -7,6 +7,6 @@
   "language":"python",
   "license": "",
   "scripts": {
-     "start": "python -V"
+     "start": "/home/pi/berryconda3/bin/python -V"
     }
 }
