@@ -1,0 +1,12 @@
+{
+  "name": "test",
+  "version": "",
+  "description": "pi-zero",
+  "main": "",
+  "author": "",
+  "language":"python",
+  "license": "",
+  "scripts": {
+     "start": "python"
+    }
+}
