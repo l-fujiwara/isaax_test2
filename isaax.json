@@ -7,6 +7,6 @@
   "language":"python",
   "license": "",
   "scripts": {
-     "start": "python"
+     "start": "python hello.py"
     }
 }
