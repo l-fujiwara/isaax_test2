@@ -7,6 +7,6 @@
   "language":"python",
   "license": "",
   "scripts": {
-     "start": "bash script.sh"
+     "start": "/home/pi/berryconda3/bin/python main.py"
     }
 }
