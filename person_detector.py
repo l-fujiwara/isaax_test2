@@ -26,8 +26,8 @@ def request(count):
     })
     
 print('model reading')
-net = cv2.dnn.readNetFromCaffe('/var/isaax/project/camera/processor/MobileNetSSD_deploy.prototxt',
-        '/var/isaax/project/camera/processor/MobileNetSSD_deploy.caffemodel')
+net = cv2.dnn.readNetFromCaffe('/var/isaax/project/MobileNetSSD_deploy.prototxt',
+        '/var/isaax/project/MobileNetSSD_deploy.caffemodel')
 print('read ok')
 
 class PersonDetector(object):
@@ -85,3 +85,7 @@ class PersonDetector(object):
                 self.last_upload = time.time()
                 
         return frame
+
+video = PersonDetector()
+while True:
+    video.get_frame()
